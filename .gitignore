@@ -1,0 +1,11 @@
+.*pdf
+Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/binaries/*
+Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/config/*
+Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/doc/*
+Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/utilities/*
+Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/projects/host_apps/*
+Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/projects/target_apps/prod_test/*
+Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/projects/target_apps/template/*
+Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/projects/target_apps/peripheral_examples/* 
+Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/projects/target_apps/ble_examples/* 
+!Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/projects/target_apps/ble_examples/MindAssist
