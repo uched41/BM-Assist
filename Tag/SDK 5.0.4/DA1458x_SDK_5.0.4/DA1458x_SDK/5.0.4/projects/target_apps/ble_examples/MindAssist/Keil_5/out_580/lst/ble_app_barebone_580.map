@@ -2622,52 +2622,52 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       208         14          0          0          0       2087   adc.o
-       992         20        104          0         56      19342   app.o
-        76          4          0          0          0       2814   app_default_handlers.o
-        72          4          0          0          0       1694   app_diss.o
-       372         58         16          0          0       2951   app_diss_task.o
-       484         26          0          0         80       6129   app_easy_timer.o
-       136         10         16          0          0       3919   app_entry_point.o
-        38          0          0          0          0       1447   app_msg_utils.o
-       396         14         76          0          1      11552   app_task.o
-       472         42          0          0       1503      20405   arch_main.o
-       528         54        140          0          0      23554   arch_patch.o
-       172         18          0          0          4       4153   arch_sleep.o
-       812         70          0          4         24     104181   arch_system.o
+       208         14          0          0          0       2059   adc.o
+       992         20        104          0         56      19198   app.o
+        76          4          0          0          0       2770   app_default_handlers.o
+        72          4          0          0          0       1662   app_diss.o
+       372         58         16          0          0       2907   app_diss_task.o
+       484         26          0          0         80       6057   app_easy_timer.o
+       136         10         16          0          0       3859   app_entry_point.o
+        38          0          0          0          0       1415   app_msg_utils.o
+       396         14         76          0          1      11468   app_task.o
+       472         42          0          0       1503      20209   arch_main.o
+       528         54        140          0          0      23434   arch_patch.o
+       172         18          0          0          4       4093   arch_sleep.o
+       812         70          0          4         24     103973   arch_system.o
        288         32        112          0          0        144   atts_task.obj
        192          8          0          0          8        108   atts_util.obj
        108         22        160          0       1792        812   boot_vectors.o
        196         12          0          0          0        108   ch_map.obj
-       164         14        291          0         18       6401   diss.o
-       252         12         64          0          1       4432   diss_task.o
+       164         14        291          0         18       6337   diss.o
+       252         12         64          0          1       4368   diss_task.o
        352         24         48          0          0        212   gapc_task.obj
-         0          0        100          0          0       1320   gapm.o
+         0          0        100          0          0       1292   gapm.o
        384         38          0          0          0        112   gapm_util.obj
-       292         18          8          0        188      10649   gpio.o
-       104         12          0          0          0       1425   hardfault_handler.o
-         2          0        374          0       3736      16075   jump_table.o
+       292         18          8          0        188      10569   gpio.o
+       104         12          0          0          0       1397   hardfault_handler.o
+         2          0        374          0       3736      15979   jump_table.o
        208         16          0          0          0         96   ke_task.obj
       1236         42        288          0         24        520   llc.obj
        144         10          0          0          0         76   llc_con_update_ind.obj
-       156         16          0          0          0       6695   nmi_handler.o
-       184         28        164          0          6       2492   nvds.o
-       132          4          0          0          0       2547   prf_utils.o
-       740        178          0          0          1      65645   rf_580.o
-       928         70          0          0          8     117328   rwble.o
-       424         38          0          0          8      65634   rwip.o
+       156         16          0          0          0       6663   nmi_handler.o
+       184         28        164          0          6       2448   nvds.o
+       132          4          0          0          0       2519   prf_utils.o
+       740        178          0          0          1      65569   rf_580.o
+       928         70          0          0          8     117136   rwble.o
+       424         38          0          0          8      65562   rwip.o
        348         24          0          0          0        160   smpc.obj
        532          4          0          0          0         84   smpc_task.obj
-        44          0          0          0          0        741   syscntl.o
-        80         18          0          0          0     201635   system_armcm0.o
-       444         32          0          0          0       3615   trng.o
-       220          8          0          0         28      16936   uart2.o
-       348         26          0          0          9       4909   user_barebone.o
-        52          4          0          0          0        708   user_periph_setup.o
-       120         14          0          0         12       6936   wkupct_quadec.o
+        44          0          0          0          0        725   syscntl.o
+        80         18          0          0          0     201287   system_armcm0.o
+       444         32          0          0          0       3571   trng.o
+       220          8          0          0         28      16872   uart2.o
+       348         26          0          0          9       4857   user_barebone.o
+        52          4          0          0          0        692   user_periph_setup.o
+       120         14          0          0         12       6828   wkupct_quadec.o
 
     ----------------------------------------------------------------------
-     14960       1566       2012          4       7556     742783   Object Totals
+     14960       1566       2012          4       7556     740207   Object Totals
       1524        508         48          0         32          0   (incl. Generated)
          4          0          3          0         17          0   (incl. Padding)
 
@@ -2708,8 +2708,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     15240       1602       2012         12       7556     740463   Grand Totals
-     15240       1602       2012         12       7556     740463   ELF Image Totals
+     15240       1602       2012         12       7556     737887   Grand Totals
+     15240       1602       2012         12       7556     737887   ELF Image Totals
      15240       1602       2012         12          0          0   ROM Totals
 
 ==============================================================================

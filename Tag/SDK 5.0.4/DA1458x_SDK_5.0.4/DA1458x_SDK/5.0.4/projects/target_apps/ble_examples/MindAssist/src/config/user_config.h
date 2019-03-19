@@ -124,7 +124,7 @@ static const struct advertise_configuration user_adv_conf = {
 /// Advertising AD type flags, shall not be set in advertising data
 #define USER_ADVERTISE_DATA    "\x03"\
                                ADV_TYPE_COMPLETE_LIST_16BIT_SERVICE_IDS\
-                               ADV_UUID_DEVICE_INFORMATION_SERVICE
+                               ADV_UUID_LOCATION_NAVIGATION_SERVICE
 
 /// Advertising data length - maximum 28 bytes, 3 bytes are reserved to set
 #define USER_ADVERTISE_DATA_LEN (sizeof(USER_ADVERTISE_DATA)-1)
@@ -136,7 +136,7 @@ static const struct advertise_configuration user_adv_conf = {
 #define USER_ADVERTISE_SCAN_RESPONSE_DATA_LEN (sizeof(USER_ADVERTISE_SCAN_RESPONSE_DATA)-1)
 
 /// Device name to be placed in advertising or scan response data
-#define USER_DEVICE_NAME    ("MIND-ASSIST-TAG")
+#define USER_DEVICE_NAME    ("MIND_ASSIST_TAG")
 
 /// Device name length
 #define USER_DEVICE_NAME_LEN (sizeof(USER_DEVICE_NAME)-1)
