@@ -13,3 +13,5 @@ Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/projects/target_apps/ble_examp
 Central/*
 !Central/nRF5_SDK_15.3.0_59ac345/modules/*
 !Central/nRF5_SDK_15.3.0_59ac345/examples/ble_central_and_peripheral/experimental/mindAssist/*
+
+backup/*
