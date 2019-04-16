@@ -1,4 +1,5 @@
-.*pdf
+*.zip
+*.pdf
 Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/binaries/*
 Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/config/*
 Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/doc/*
@@ -10,8 +11,13 @@ Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/projects/target_apps/periphera
 Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/projects/target_apps/ble_examples/* 
 !Tag/SDK 5.0.4/DA1458x_SDK_5.0.4/DA1458x_SDK/5.0.4/projects/target_apps/ble_examples/MindAssist
 
-Central/*
-!Central/nRF5_SDK_15.3.0_59ac345/modules/*
-!Central/nRF5_SDK_15.3.0_59ac345/examples/ble_central_and_peripheral/experimental/mindAssist/*
-
+Central/nRF5_SDK_15.3.0_59ac345/*
+!Central/nRF5_SDK_15.3.0_59ac345/modules/
+!Central/nRF5_SDK_15.3.0_59ac345/examples/
+Central/nRF5_SDK_15.3.0_59ac345/examples/*
+!Central/nRF5_SDK_15.3.0_59ac345/examples/ble_central_and_peripheral/
+Central/nRF5_SDK_15.3.0_59ac345/examples/ble_central_and_peripheral/*
+!Central/nRF5_SDK_15.3.0_59ac345/examples/ble_central_and_peripheral/experimental/
+Central/nRF5_SDK_15.3.0_59ac345/examples/ble_central_and_peripheral/experimental/*
+!Central/nRF5_SDK_15.3.0_59ac345/examples/ble_central_and_peripheral/experimental/mindAssist/
 backup/*
