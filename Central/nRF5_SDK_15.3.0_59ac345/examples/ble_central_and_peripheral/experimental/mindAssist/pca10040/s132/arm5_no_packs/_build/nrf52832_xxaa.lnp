@@ -82,7 +82,7 @@
 ".\_build\nrf_sdh_ble.o"
 ".\_build\nrf_sdh_soc.o"
 ".\_build\app_mpu.o"
-".\_build\nrf_drv_mpu_twi.o"
+".\_build\nrf_drv_mpu_spi.o"
 ".\_build\ra8875.o"
 ".\_build\cfaf.o"
 ".\_build\display_wrapper.o"

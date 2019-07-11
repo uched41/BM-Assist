@@ -71,8 +71,8 @@ void accel_init(void){
 	Function to check if door is open 
 */
 bool is_door_open(){
-	app_mpu_read_gyro(&gyro_vals);
-	NRF_LOG_INFO("Gyro values x:%d, y:%d, z:%d \n", gyro_vals.x, gyro_vals.y, gyro_vals.z);
+	//app_mpu_read_gyro(&gyro_vals);
+	//NRF_LOG_INFO("Gyro values x:%d, y:%d, z:%d \n", gyro_vals.x, gyro_vals.y, gyro_vals.z);
 	return true;
 }
 

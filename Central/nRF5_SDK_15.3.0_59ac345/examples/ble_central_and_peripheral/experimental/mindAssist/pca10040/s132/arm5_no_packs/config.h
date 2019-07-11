@@ -8,8 +8,8 @@
 	Pin definitions
 */
 #define ACCEL_INTERRUPT_PIN 	19
-#define ACCEL_SCL_PIN 				26
-#define ACCEL_SDA_PIN 				25
+#define ACCEL_SCL_PIN 				25		// Inverted on pcb (mistake)
+#define ACCEL_SDA_PIN 				26
 
 #define DISPLAY_MISO_PIN 			14
 #define DISPLAY_MOSI_PIN 			13
@@ -17,6 +17,7 @@
 #define DISPLAY_SS_PIN 				15
 #define DISPLAY_RESET_PIN			23
 #define DISPLAY_RS_PIN				24
+#define DISPLAY_BACKLIGHT			22
 
 #define BUZZER_PIN						7
 #define CONTROL_BUTTON_PIN		6

@@ -13,19 +13,18 @@ cfaf_t my_display = {
 	._sck = DISPLAY_SCK_PIN,
 	._reset = DISPLAY_RESET_PIN,
 	._rs = DISPLAY_RS_PIN,
-	.width = 128,
-	.height = 128,
+	.width = 240,
+	.height = 320,
 	.cursor_x = 3,
 	.cursor_y = 5,
 	.text_color = {0, 0, 0},
 	.text_size = 1,
-	.text_bgcolor = {0xff, 0xff, 0xff},
+	.text_bgcolor = {0xff, 0x00, 0x00},
 	.wrap = true,
 };
 
 void display_wrapper(void){
 	Initialize_Cfaf(&my_display);
-	
 }
 
 void write_reminders(cfaf_t* cfaf, user_data_t* user){

@@ -33,5 +33,6 @@ void my_init(){
 	nrfx_systick_init();
 	rtc_config();
 	tag_init();
+	
 }
 

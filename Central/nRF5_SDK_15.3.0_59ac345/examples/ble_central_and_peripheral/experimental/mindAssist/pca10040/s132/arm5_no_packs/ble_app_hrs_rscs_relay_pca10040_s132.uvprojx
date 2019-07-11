@@ -4406,9 +4406,9 @@
               <FilePath>.\mpu6050\app_mpu.c</FilePath>
             </File>
             <File>
-              <FileName>nrf_drv_mpu_twi.c</FileName>
+              <FileName>nrf_drv_mpu_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\mpu6050\nrf_drv_mpu_twi.c</FilePath>
+              <FilePath>.\nrf_drv_mpu_spi.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -8859,9 +8859,9 @@
               <FilePath>.\mpu6050\app_mpu.c</FilePath>
             </File>
             <File>
-              <FileName>nrf_drv_mpu_twi.c</FileName>
+              <FileName>nrf_drv_mpu_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\mpu6050\nrf_drv_mpu_twi.c</FilePath>
+              <FilePath>.\nrf_drv_mpu_spi.c</FilePath>
             </File>
           </Files>
         </Group>

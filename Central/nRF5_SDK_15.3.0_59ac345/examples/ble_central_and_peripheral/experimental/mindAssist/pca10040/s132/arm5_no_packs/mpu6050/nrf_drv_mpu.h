@@ -11,7 +11,8 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#define MPU_USES_TWI 1
+//#define MPU_USES_TWI 0
+#define MPU_USES_SPI 1
 
 #if defined(MPU_USES_TWI)
 #warning "INFO: The MPU is using TWI drivers."

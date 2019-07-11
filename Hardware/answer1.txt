@@ -1,0 +1,14 @@
+
+
+Hello
+
+1) Display
+	- I will send you the datasheet for the display to that you can get all the dimension ino you need.
+	- The display has no holes for fastening, I thinking glueing the the option we have, but you can select any method that you prefer.
+	- The with of the flexible cable is about 25 mm. 
+
+2) Light emitting body/ring
+	- I am not aware of this. I dont think we are going to implement this. We are powering the device from a battery, so we need to minimize power consumption as much as possible.
+	
+3) Exact dimension of PCB
+	- Thickness of pcb is 1.6 mm

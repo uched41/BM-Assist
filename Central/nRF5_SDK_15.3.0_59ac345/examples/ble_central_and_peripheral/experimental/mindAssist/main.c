@@ -120,7 +120,7 @@ BLE_CUS_DEF(m_cus);
 #define CENTRAL_SCANNING_LED            BSP_BOARD_LED_0
 #define CENTRAL_CONNECTED_LED           BSP_BOARD_LED_1
 
-#define DEVICE_NAME                     "MAcentral"                                 /**< Name of device used for advertising. */
+#define DEVICE_NAME                     "MACEntral"                                 /**< Name of device used for advertising. */
 #define MANUFACTURER_NAME               "MindAssist"                       /**< Manufacturer. Passed to Device Information Service. */
 #define APP_ADV_INTERVAL                300                                         /**< The advertising interval (in units of 0.625 ms). This value corresponds to 187.5 ms. */
 
@@ -229,6 +229,13 @@ static void scan_evt_handler(scan_evt_t const * p_scan_evt)
 					addr_ble_t new_adr;
 					set_addr(&new_adr, &p_adv->peer_addr);
 					update_tag(new_adr, p_adv->rssi);
+					
+					/*if( abs(p_adv->rssi) < 60){
+						nrf_gpio_pin_set(DISPLAY_BACKLIGHT);
+					}
+					else{
+						nrf_gpio_pin_clear(DISPLAY_BACKLIGHT);
+					}*/
         } break;
 
         default:
@@ -862,7 +869,7 @@ int main(void)
     // Initialize.
     log_init();
     timer_init();
-    buttons_leds_init(&erase_bonds);
+    //buttons_leds_init(&erase_bonds);
     power_management_init();
     ble_stack_init();
     scan_init();
@@ -885,27 +892,34 @@ int main(void)
         adv_scan_start();
     }
 		
+		nrfx_gpiote_init();
 		my_init();
 		storage_init();
-		accel_init();
-		display_wrapper();
+		//accel_init();
+		//display_wrapper();
 		
-		buzzer = malloc(sizeof(buzzer_t));
-		buzzer->pin = BUZZER_PIN;
+		//buzzer = malloc(sizeof(buzzer_t));
+		//buzzer->pin = BUZZER_PIN;
 		
-		control_button = malloc(sizeof(control_button_t));
-		control_button->pin =  CONTROL_BUTTON_PIN;
+		//control_button = malloc(sizeof(control_button_t));
+		//control_button->pin =  CONTROL_BUTTON_PIN;
 		
-		buzzer_init(buzzer);
-		control_button_init(control_button);
-		
-		delay(500);
+		//buzzer_init(buzzer);
+		//control_button_init(control_button);
+		//Fill_LCD(&my_display, 0xff,0x80,0x00);
+		//LCD_Circle(&my_display, 50, 50, 19, 125, 78, 69);
+		//delay(500);
 		
 		NRF_LOG_INFO("Starting loop");
 		
 		// Enter main loop.
     for (;;)
     {
+			//Fill_LCD(&my_display, 0x87,0xce,0xeb);
+			/*nrf_gpio_pin_set(DISPLAY_BACKLIGHT);
+			delay(1000);
+			nrf_gpio_pin_clear(DISPLAY_BACKLIGHT);
+			delay(1000);*/
       idle_state_handle();
     }
 }

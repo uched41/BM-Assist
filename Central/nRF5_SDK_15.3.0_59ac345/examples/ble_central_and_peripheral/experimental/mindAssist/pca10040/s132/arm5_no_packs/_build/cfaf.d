@@ -69,3 +69,4 @@
 .\_build\cfaf.o: ..\..\..\..\..\..\..\modules\nrfx\hal/nrf_gpio.h
 .\_build\cfaf.o: font.c
 .\_build\cfaf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\_build\cfaf.o: config.h
